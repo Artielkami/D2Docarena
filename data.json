@@ -372,5 +372,16 @@
 		"runes": ["Eth","Ral","Ort","Tal"],
 		"lvl": 23,
 		"content": "+60% Enhanced Damage<br>+10 to Maximum Damage<br>-25% Target Defense<br>Adds 5-30 Fire Damage<br>Adds 21-110 Lightning Damage<br>+75 Poison Damage over 5 secs<br>+3 to Holy Shock (Paladin Only)<br>+5% to Maximum Lightning Resist<br>Lightning Resist +60%<br>Level 7 Chain Lightning (60 charges)"
+	},
+	{
+		"id": 35,
+		"ver": "LoD",
+		"ladder_only": false,
+		"name": "Honor",
+		"item": ["Scepters"],
+		"socket": 5,
+		"runes": ["Amn","El","Ith","Tir","Sol"],
+		"lvl": 27,
+		"content": "+1 to all skills<br>+160% Enhanced Damage<br>+9 to Minimum Damage<br>+9 to Maximum Damage<br>+250 Attack Rating<br>7% Life Stolen per Hit<br>25% Deadly Strike<br>+10 to Strength Replenish life +10<br>+2 to Mana after each Kill<br>+1 to Light Radius"
 	}
 ]
