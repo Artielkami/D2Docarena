@@ -1,0 +1,126 @@
+.main-wrapper{
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+	height: 100% !important;
+}
+.main-wrapper:before,
+.main-wrapper:after {
+    content : "";
+    display: block;
+}
+.main-wrapper:after {
+    clear : both;
+}
+.main-left-panel{
+	width: 16%;
+	background-color: #caf3e4;
+	/*position: fixed;*/
+	display: inline-block;
+	height: 100%;
+	overflow:hidden;
+}
+.main-right-panel{
+	width: 84%;
+	/*left: 20%;*/
+
+	height: 100%;
+	float: right;
+	display: inline-block;
+	/*position: fixed;*/
+	overflow:hidden;
+}
+.bodyWithoutMargin{
+	margin: 0;
+}
+.navi-feature{
+	height: inherit;
+	margin-left: 10px;
+}
+.leftContent, 
+.rightContent{
+	height: 90%;
+	width: 100%;
+}
+.rightContentDiv{
+	height: inherit;
+	width: 100%;
+}
+.header-doc{
+	width: 100%;
+	text-align: center;
+	color: green;
+	background-color: #f3d5b1;
+	height: 10%;
+}
+.heading-title{
+	margin: 10px 0px 10px 0px;
+	font-family: Serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+.p-content{
+	margin-top: 0;
+	margin-left: 10px;
+	font-family: Serif;
+	font-size: 20px;
+}
+.span-red-bold{
+	color: red;
+	font-weight: bold;
+}
+.span-green-bolder{
+	color: white;
+	font-weight: bolder;
+}
+#rww{
+	right: 0px;
+    position: fixed
+}
+.rune-master{
+	width: 100%;
+	margin: 0;
+}
+.btn-rtl-right{
+	width: 150px;
+	float: right;
+	position: relative;
+}
+.common-runes, 
+.middle-runes, 
+.hight-runes{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.rw-ct-center{
+	text-align: center;
+}
+tr.rw-lst:nth-of-type(2n+2){
+	background-color: #e5e3e6;
+}
+tr.rw-lst td{
+	text-align: center;
+}
+.span-bold{
+	font-weight: bold;
+	color: #706033;
+}
+.bold{
+	font-weight: bold;
+}
+.rw-runes-left{
+	text-align: left;
+}
+.rw-runes-left img {
+	margin-bottom: 1px;
+	margin-right: 1px
+}
+.rw-footer{
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
+.main-content-wrapper{
+	height: 100%;
+}
