@@ -124,3 +124,8 @@ tr.rw-lst td{
 .main-content-wrapper{
 	height: 100%;
 }
+/* style for changelog*/
+._2cuy{
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}

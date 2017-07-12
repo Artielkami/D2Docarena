@@ -191,22 +191,22 @@ dTree.prototype.s = function(id) {
 		eNew.className = "nodeSel";
 		this.selectedNode = id;
 	
-		// var now = new Date(); //cookie
-		// var month = new Date(now.getTime() + 1000 * 60 * 60 * 24 * 30); //cookie
+		var now = new Date(); //cookie
+		var month = new Date(now.getTime() + 1000 * 60 * 60 * 24 * 30); //cookie
 		
-		// var cs_path = document.location.href; 
-		// cs_path = cs_path.split('/');
-		// cs_path.pop();
-		// cs_path.pop();
-		// cs_path = cs_path.join('/');
-		// cs_path = eNew.href.substring(cs_path.length+1,eNew.href.length);
+		var cs_path = document.location.href; 
+		cs_path = cs_path.split('/');
+		cs_path.pop();
+		cs_path.pop();
+		cs_path = cs_path.join('/');
+		cs_path = eNew.href.substring(cs_path.length+1,eNew.href.length);
 	
-		// if (this.config.useCookies)
-		// {
-		// 	this.setCookie('cs' + this.obj, cn.id, month);
-		// 	this.setCookie('cs_path', cs_path, month);
-		// 	//this.setCookie('cs_path', eNew, month);
-		// }
+		if (this.config.useCookies)
+		{
+			this.setCookie('cs' + this.obj, cn.id, month);
+			this.setCookie('cs_path', cs_path, month);
+			//this.setCookie('cs_path', eNew, month);
+		}
 	}
 };
 
